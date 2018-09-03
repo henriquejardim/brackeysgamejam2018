@@ -398,7 +398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberOfStars: 80
   numberOfSuns: 55
-  numberOfBlackHoles: 30
+  numberOfBlackHoles: 32
   earthPrefab: {fileID: 1403603521173206, guid: bc362376d1ef8c7469dfdfeab4bcc38f,
     type: 2}
   marsPrefab: {fileID: 0}

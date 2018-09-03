@@ -1440,9 +1440,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a39e6d2483379404599b6f5c6a70aa69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfStars: 80
-  numberOfSuns: 50
-  numberOfBlackHoles: 30
+  numberOfStars: 85
+  numberOfSuns: 55
+  numberOfBlackHoles: 35
   earthPrefab: {fileID: 1403603521173206, guid: bc362376d1ef8c7469dfdfeab4bcc38f,
     type: 2}
   marsPrefab: {fileID: 1079007012401032, guid: c25e9acf57148fa4bb02e76c01ec54a8, type: 2}
@@ -1647,7 +1647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d19b726a67886064caa0487ed8a76f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 5
   navigationEarth: {fileID: 1511149590}
   navigationMars: {fileID: 1860338166}
   magnitude: 0

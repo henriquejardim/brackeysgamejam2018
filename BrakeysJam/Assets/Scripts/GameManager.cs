@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour {
     public GameObject mars;
     public AudioSource audioSource;
     public AudioClip audioSong;
+  
 
     float lerpTime = 3f;
     float currentLerpTime;
