@@ -184,20 +184,21 @@ public class GameManager : MonoBehaviour {
         }
 
         for (int i = 0; i < numberOfSuns; i++) {
-            var point = Random.insideUnitCircle.normalized * Random.Range(38f, 150f);
+            var point = Random.insideUnitCircle.normalized * Random.Range(30f, 150f);
             Instantiate(sun, point, Quaternion.identity, universe.transform);
         }
 
         for (int i = 0; i < numberOfBlackHoles; i++) {
-            var point = Random.insideUnitCircle.normalized * Random.Range(70f, 200f);
+            var point = Random.insideUnitCircle.normalized * Random.Range(60f, 200f);
             Instantiate(blackHole, point, Quaternion.identity, universe.transform);
         }
 
-        var pointEarth = GetPointOnCircunference(Vector2.zero, 110f);
+        var pointEarth = GetPointOnCircunference(Vector2.zero, 120f);
         Instantiate(earthPrefab, pointEarth, Quaternion.identity, universe.transform);
 
         var pointMars = GetPointOnCircunference(pointEarth, 50f);
-        mars = Instantiate(marsPrefab, pointMars, Quaternion.identity, universe.transform);
+        if(marsPrefab != null)
+            mars = Instantiate(marsPrefab, pointMars, Quaternion.identity, universe.transform);
     }
 
     public void ToIntro() {
